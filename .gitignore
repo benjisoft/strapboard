@@ -102,3 +102,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Application Specific Stuff
+config.php
+
