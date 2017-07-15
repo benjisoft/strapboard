@@ -12,7 +12,7 @@
 <body>
 <h1>StrapBoard</h1>
 <h2>Check on everything from here!</h2>
-<p class="centre">Have a problem? Email: <a href="mailto:strapboard@benjisoft.org.uk">panel@benjisoft.org.uk</a></p>
+<p class="centre">Have a problem? Email: <a href="mailto:strapboard@benjisoft.org.uk">strapboard@benjisoft.org.uk</a></p>
 <?php
 /**
  * Created by PhpStorm.
@@ -20,7 +20,20 @@
  * Date: 07/05/2017
  * Time: 20:12
  */
-
+$db_conx = mysqli_connect($host,$user,$password,$schema,$port);
+$result = mysqli_query($db_conx, 'SELECT status FROM statuses');
+$row = mysqli_fetch_assoc($result);
+$br = $row['status'];
+echo "Bathroom: <br \>";
+if ($br==0) {
+    echo('<img src="res/Green.png">');
+} elseif ($br==1) {
+    echo('<img src="res/Yellow.png">');
+} elseif ($br==2) {
+    echo('<img src="res/Red.png">');
+} else {
+    echo("Please email Benji, so he knows that he broke his code and he can cry himself to sleep tonight.");
+}
 ?>
 </body>
 </html>
