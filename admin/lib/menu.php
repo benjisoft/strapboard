@@ -48,7 +48,7 @@
  * Created by PhpStorm.
  * User: jamin_rules
  * Date: 20/05/2017
- * Time: 21:57
+ * Time: 21:57.
  */
 ?>
 </body>
