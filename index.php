@@ -21,12 +21,11 @@
         <br />
         <?php
             /**
-            * Created by PhpStorm.
+             * Created by PhpStorm.
              *  User: benji
              * Date: 07/05/2017
              * Time: 20:12.
              */
-
             echo '<table style="margin: 0px auto;">';
             echo '<tr>';
             echo '<td>';
