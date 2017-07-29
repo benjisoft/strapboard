@@ -23,13 +23,13 @@
 $db_conx = mysqli_connect($host, $user, $password, $schema, $port);
 $result = mysqli_query($db_conx, 'SELECT status FROM statuses');
 $row = mysqli_fetch_assoc($result);
-$br = $row['status'];
+$br = $row['1'];
 echo "Test: <br \>";
-if ($br == 0) {
+if ($br == 1) {
     echo '<img src="res/Green.png">';
-} elseif ($br == 1) {
-    echo '<img src="res/Yellow.png">';
 } elseif ($br == 2) {
+    echo '<img src="res/Yellow.png">';
+} elseif ($br == 3) {
     echo '<img src="res/Red.png">';
 } else {
     echo 'Please email <a href="mailto:benji@benjisoft.org.uk">Benji</a>, so he knows that he broke his code and he can cry himself to sleep tonight.';
