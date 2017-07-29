@@ -8,7 +8,7 @@
     <?php
     $sitename = 'StrapBoard';
     $admintitle = 'Admin Console | '.$sitename;
-    echo ('<title>'. $admintitle. '</title>');
+    echo '<title>'.$admintitle.'</title>';
     include 'lib/bootstrap.php';
     ?>
     <link rel="stylesheet" type="text/css" href="css/admin.css">
