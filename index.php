@@ -29,49 +29,53 @@
             echo '<table style="margin: 0px auto;">';
             echo '<tr>';
             echo '<td>';
-            echo "Bathroom: <br \>";
+            echo "Bathroom: ";
+            echo '</td><td>';
             if ($btr == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
             } elseif ($btr == 2) {
-                echo '<img src="res/Yellow.png">';
+                echo '<img src="res/Yellow.png" height="100" width="100">';
             } elseif ($btr == 3) {
-                echo '<img src="res/Red.png">';
+                echo '<img src="res/Red.png" height="100" width="100">';
             } else {
                 echo 'Please email <a href="mailto:benji@benjisoft.org.uk">Benji</a>, so he knows that he broke his code and he can cry himself to sleep tonight.';
             }
-            echo '&nbsp;</td> <td>';
+            echo '&nbsp;</td></tr> <tr><td>';
 
-            echo "Bedrooms: <br \>";
+            echo "Bedrooms: ";
+            echo '</td><td>';
             if ($bdrms == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
             } elseif ($bdrms == 2) {
-                echo '<img src="res/Yellow.png">';
+                echo '<img src="res/Yellow.png" height="100" width="100">';
             } elseif ($bdrms == 3) {
-                echo '<img src="res/Red.png">';
+                echo '<img src="res/Red.png" height="100" width="100">';
             } else {
                 echo 'Please email <a href="mailto:benji@benjisoft.org.uk">Benji</a>, so he knows that he broke his code and he can cry himself to sleep tonight.';
             }
-            echo '&nbsp;</td> <td>';
+            echo '&nbsp;</td></tr> <tr><td>';
 
-            echo "Lounge: <br \>";
+            echo "Lounge: ";
+            echo '</td><td>';
             if ($lounge == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
             } elseif ($lounge == 2) {
-                echo '<img src="res/Yellow.png">';
+                echo '<img src="res/Yellow.png" height="100" width="100">';
             } elseif ($lounge == 3) {
-                echo '<img src="res/Red.png">';
+                echo '<img src="res/Red.png" height="100" width="100">';
             } else {
                 echo 'Please email <a href="mailto:benji@benjisoft.org.uk">Benji</a>, so he knows that he broke his code and he can cry himself to sleep tonight.';
             }
-            echo '&nbsp;</td><td>';
+            echo '&nbsp;</td></tr><tr><td>';
 
-            echo "Kitchen: <br \>";
+            echo "Kitchen: ";
+            echo '</td><td>';
             if ($kitchen == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
             } elseif ($kitchen == 2) {
-                echo '<img src="res/Yellow.png">';
+                echo '<img src="res/Yellow.png" height="100" width="100">';
             } elseif ($kitchen == 3) {
-                echo '<img src="res/Red.png">';
+                echo '<img src="res/Red.png" height="100" width="100">';
             } else {
                 echo 'Please email <a href="mailto:benji@benjisoft.org.uk">Benji</a>, so he knows that he broke his code and he can cry himself to sleep tonight.';
             }
