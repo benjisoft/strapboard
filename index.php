@@ -29,7 +29,7 @@
             echo '<table style="margin: 0px auto;">';
             echo '<tr>';
             echo '<td>';
-            echo "Bathroom: ";
+            echo 'Bathroom: ';
             echo '</td><td>';
             if ($btr == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
@@ -42,7 +42,7 @@
             }
             echo '&nbsp;</td></tr> <tr><td>';
 
-            echo "Bedrooms: ";
+            echo 'Bedrooms: ';
             echo '</td><td>';
             if ($bdrms == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
@@ -55,7 +55,7 @@
             }
             echo '&nbsp;</td></tr> <tr><td>';
 
-            echo "Lounge: ";
+            echo 'Lounge: ';
             echo '</td><td>';
             if ($lounge == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
@@ -68,7 +68,7 @@
             }
             echo '&nbsp;</td></tr><tr><td>';
 
-            echo "Kitchen: ";
+            echo 'Kitchen: ';
             echo '</td><td>';
             if ($kitchen == 1) {
                 echo '<img src="res/Green.png" height="100" width="100">';
