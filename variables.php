@@ -5,7 +5,7 @@
  * Date: 29/07/2017
  * Time: 19:53.
  */
-$btr = '1';
+$btr = '2';
 $bdrms = '1';
 $lounge = '1';
 $kitchen = '1';
