@@ -11,3 +11,6 @@ $user='SQL User';
 $pass='SQL Password';
 $schema='SQL Database';
 $port='SQL Port';
+
+$account_sid='Twilio Account SID';
+$auth_token='Auth token';
