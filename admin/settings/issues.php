@@ -40,7 +40,7 @@ include 'lib/menu.php';
         Minor <span class="caret"></span>
     </button>
     <ul class="dropdown-menu">
-        <li><a href="lib/php/update_status.php?id=2&status=2">Bathroom</a></li>
+        <li><a href="lib/php/update_status.php?id=1&status=2">Bathroom</a></li>
         <li><a href="lib/php/update_status.php?id=2&status=2">Bedrooms</a></li>
         <li><a href="lib/php/update_status.php?id=3&status=2">Lounge</a></li>
         <li><a href="lib/php/update_status.php?id=4&status=2">Kitchen</a></li>
@@ -53,7 +53,7 @@ include 'lib/menu.php';
         Major <span class="caret"></span>
     </button>
     <ul class="dropdown-menu">
-        <li><a href="lib/php/update_status.php?id=3&status=3">Bathroom</a></li>
+        <li><a href="lib/php/update_status.php?id=1&status=3">Bathroom</a></li>
         <li><a href="lib/php/update_status.php?id=2&status=3">Bedrooms</a></li>
         <li><a href="lib/php/update_status.php?id=3&status=3">Lounge</a></li>
         <li><a href="lib/php/update_status.php?id=4&status=3">Kitchen</a></li>
