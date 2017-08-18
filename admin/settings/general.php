@@ -20,6 +20,6 @@ include 'lib/menu.php';
 <div class="alert alert-danger" role="alert">
     <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
     <span class="sr-only">Warning:</span>
-    This is not finished yet. <a href="../home.php">Go back home</a>
+    This is not finished yet. <a href="../../home.php">Go back home</a>
 </div>
 </body>
