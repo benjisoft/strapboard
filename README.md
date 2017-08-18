@@ -7,6 +7,7 @@ Full description will be coming soon. We are nearly ready!
 
 ### Changelog/ To Do:
 
+- [x] Working Frontend
 - [x] SQL Intergration
 - [ ] Admin Page
   - [ ] General Settings
