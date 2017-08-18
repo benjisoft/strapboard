@@ -12,4 +12,4 @@ Full description will be coming soon. We are nearly ready!
   - [ ] General Settings
   - [x] Issues Page
 - [ ] Secure login for admin page
-- [ ] Twilio/ AWS SNS/ Simlar Intergration
+- [x] Twilio/ AWS SNS/ Simlar Intergration
