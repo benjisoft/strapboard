@@ -1,0 +1,13 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: jamin_rules
+ * Date: 14/08/2017
+ * Time: 16:40
+ */
+
+$host='SQL Host';
+$user='SQL User';
+$pass='SQL Password';
+$schema='SQL Database';
+$port='SQL Port';
