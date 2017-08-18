@@ -3,9 +3,8 @@
  * Created by PhpStorm.
  * User: jamin_rules
  * Date: 18/08/2017
- * Time: 10:23
+ * Time: 10:23.
  */
-
 include '../../../../config.php';
 require_once 'Twilio/autoload.php'; // Loads the library
 use Twilio\Rest\Client;
@@ -17,7 +16,7 @@ $id = $_GET['id'];
 $conn = mysqli_connect($host, $user, $pass, $schema);
 // Check connection
 if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    die('Connection failed: '.mysqli_connect_error());
 }
 
 $sql = "UPDATE statuses SET status=$status WHERE id=$id";
@@ -34,9 +33,7 @@ if (mysqli_query($conn, $sql)) {
             'Body' => "An issue has been reported. For more details, go to [Domain Name]",
         ));
 } else {
-    echo "Error updating record: " . mysqli_error($conn);
+    echo 'Error updating record: '.mysqli_error($conn);
 }
 
 mysqli_close($conn);
-
-
